@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import Hero from "./Hero/index";
 import { Row, Col, Container } from "react-bootstrap";
-// import { Row, Col, Container } from "bootstrap";
 
 class Landing extends Component {
   render() {
