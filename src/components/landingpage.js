@@ -6,16 +6,28 @@ class Landing extends Component {
   render() {
     return (
       <div>
-        <Hero backgroundImage="https://images.unsplash.com/photo-1540745291638-2c71059043e5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60">
-          <h1>Swank PR, L.L.C.</h1>
-          <h2>Own it, someone has to.</h2>
-        </Hero>
+        <div>
+          <Row>
+            <Col xs={8}>
+              <Hero backgroundImage="https://images.unsplash.com/photo-1568050989546-ad3e9a567206?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60" style={{ padding: "0px" }}>
+              </Hero>
+            </Col>
+            <Col style={{ backgroundColor: "black" }}>
+              <div style={{ textAlign: "center" }}>
+                <h1 style={{ color: "pink", marginTop: "30px" }}>Swank PR, L.L.C.</h1>
+                <h2 style={{ color: "white", marginTop: "50px" }}>Own it, someone has to.</h2>
+              </div>
+            </Col>
+          </Row>
+        </div>
+
+
 
         {/* WHAT SWANK IS */}
         <div style={{ paddingTop: 30, paddingLeft: 30, paddingRight: 30, paddingBottom: 30, backgroundColor: "black" }}>
           <Row>
             <Col size="md-12">
-              <h1 style={{ textAlign: "center", color: "white" }}>Illuminate Your Brand.</h1>
+              <h1 style={{ textAlign: "center", color: "pink" }}>SOME CATCHY PHRASE</h1>
             </Col>
           </Row>
           <Row>

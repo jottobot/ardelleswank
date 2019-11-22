@@ -6,8 +6,8 @@ class About extends Component {
   render() {
     return (
       <div>
-        <Hero backgroundImage="https://images.unsplash.com/photo-1540745291638-2c71059043e5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60">
-          <h1>About Swank.</h1>
+        <Hero backgroundImage="https://images.unsplash.com/photo-1564547563308-5ad53935116d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60" >
+          <h1 style={{ color: "pink", textTransform: "uppercase"}}>About</h1>
         </Hero>
 
         {/* SWANK SUMMARY */}
