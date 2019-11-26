@@ -15,7 +15,7 @@ class About extends Component {
         <div style={{ paddingTop: 80, paddingLeft: 30, paddingRight: 30, paddingBottom: 80, backgroundColor: "black" }}>
           <Row>
             <Col size="md-12">
-              <h1 style={{ textAlign: "center", color: "#fc5193" }}>ANOTHER CATCHY PHRASE</h1>
+              <h1 style={{ textAlign: "center", color: "#fc5193" }}>Our Sectors</h1>
             </Col>
           </Row>
           <Row>
@@ -23,9 +23,20 @@ class About extends Component {
               <p style={{ color: "white", paddingLeft: "80px", paddingRight: "80px", fontSize: "18px", textAlign: "justify", letterSpacing: "1px", lineHeight: "25px" }}>
                 Swank PR, L.L.C. is an efficient and results oriented PR firm specializing in real estate and lifestyle public relations. Founded in 2019, Swank PR L.L.C. offers strategic solutions for an array of clients, and seeks to use digital platforms to enhance interpersonal relations rather than isolate them.
              </p>
-              <p style={{ color: "white", paddingLeft: "80px", paddingRight: "80px", fontSize: "18px", textAlign: "justify", letterSpacing: "1px", lineHeight: "25px" }}>
-                While the firm’s client portfolio continues to expand, Ardelle Swank, Founder and Owner, is thoughtful and strategic about client engagements. By maintaining direct contact with every account and relationship, this ensures that clients have access to a senior level expert at all times.
-            </p>
+            </Col>
+          </Row>
+          <Row style={{ marginTop:"50px", color:"white", textAlign:"center"}}>
+            <Col>
+            <img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=60" height="200px" alt=""></img>
+            <p>Commercial, residential and industrial real estate</p> 
+            </Col>
+            <Col>
+            <img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=60" height="200px" alt=""></img>
+            <p>Corporate and financial services</p>
+            </Col>
+            <Col>
+            <img src="https://images.unsplash.com/photo-1502519144081-acca18599776?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=60" height="200px" alt=""></img>
+            <p>Consumer and lifestyle services</p>
             </Col>
           </Row>
         </div>

@@ -2,6 +2,12 @@ import React, { Component } from "react";
 import Hero from "./Hero/index";
 import { Row, Col } from "react-bootstrap";
 import Footer from "./Footer/index";
+import { FaPencilAlt } from "react-icons/fa";
+import { FaPhone } from "react-icons/fa";
+import { FaHandsHelping } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa";
+import { FaSistrix } from "react-icons/fa";
+import { FaGrinBeam } from "react-icons/fa";
 
 class Services extends Component {
   render() {
@@ -17,12 +23,34 @@ class Services extends Component {
               <h1 style={{ textAlign: "center", color: "#fc5193" }}>ANOTHER CATCHY PHRASE</h1>
             </Col>
           </Row>
-          <Row>
-            <Col size="md-12">
-              <p style={{ color: "white" }}>
-                Again, hoping to put some photos or animations here for what services you offer.
-            </p>
+          <Row style={{ textAlign:"center"}}>
+            <Col>
+              <FaPhone style={{ color: "white", fontSize:"80px", marginBottom: "20px", marginTop: "40px" }} />
+              <p style={{ color: "white" }}>Communications Strategy & Planning</p>
             </Col>
+            <Col>
+              <FaHandsHelping style={{ color: "white", fontSize:"80px", marginBottom: "20px", marginTop: "40px" }} />
+              <p style={{ color: "white" }}>Community Relations</p>
+            </Col>
+            <Col>
+              <FaInstagram style={{ color: "white", fontSize:"80px", marginBottom: "20px", marginTop: "40px" }} />
+              <p style={{ color: "white" }}>Media Relations</p>
+            </Col>
+          </Row>
+          <Row style={{ textAlign:"center"}}>
+            <Col>
+              <FaPencilAlt style={{ color: "white", fontSize:"80px", marginBottom: "20px", marginTop: "40px" }} />
+              <p style={{ color: "white" }}>Copywriting & Content Development</p>
+            </Col>
+            <Col>
+              <FaSistrix style={{ color: "white", fontSize:"80px", marginBottom: "20px", marginTop: "40px" }} />
+              <p style={{ color: "white" }}>Crisis Communications</p>
+            </Col>
+            <Col>
+              <FaGrinBeam style={{ color: "white", fontSize:"80px", marginBottom: "20px", marginTop: "40px" }} />
+              <p style={{ color: "white" }}>Brand & Reputation Management</p>
+            </Col>
+
           </Row>
         </div>
 

@@ -26,13 +26,16 @@ class Landing extends Component {
           <div style={{ paddingTop: 80, paddingLeft: 30, paddingRight: 30, paddingBottom: 80, backgroundColor: "white" }}>
             <Row>
               <Col size="md-12">
-                <h1 style={{ textAlign: "center", color: "#fc5193", marginBottom: "40px" }}>SOME CATCHY PHRASE</h1>
+                <h1 style={{ textAlign: "center", color: "#fc5193", marginBottom: "40px" }}>Our Mission</h1>
               </Col>
             </Row>
             <Row>
               <Col size="md-12">
                 <p style={{ color: "black", paddingLeft: "50px", paddingRight: "50px", fontSize: "25px", textAlign: "justify", letterSpacing: "1px", lineHeight: "30px" }}>
-                  Welcome to Swank PR, L.L.C., a Public Relations Consulting Firm that helps businesses like yours achieve unique goals. Our expert professionals will partner with your business to deliver tailor-made practical solutions, fast. Since 2000, we’ve supported numerous clients - and we’re confident we’re the right Public Relations Consulting Firm for you.
+                Swank PR, L.L.C. is an efficient and results oriented PR firm specializing in real estate development and lifestyle public relations. Founded in 2019, Swank PR L.L.C. offers strategic solutions for an array of clients, and seeks to use digital platforms to enhance interpersonal relations rather than isolate them. 
+                <br />
+                <br />
+                While the firm’s client portfolio continues to expand, Ardelle Swank, Founder and Director, is thoughtful and strategic about client engagements. By maintaining direct contact with every account and relationship, this ensures that clients have access to a senior level expert at all times. 
             </p>
               </Col>
             </Row>
@@ -42,17 +45,21 @@ class Landing extends Component {
           <div style={{ paddingTop: 30, paddingBottom: 30, backgroundColor: "black" }}>
             <Row>
               <Col>
-                <h1 style={{ textAlign: "center", color: "#fc5193" }}>What We Do</h1>
+                <h1 style={{ textAlign: "center", color: "#fc5193" }}>Why Swank?</h1>
               </Col>
             </Row>
             <Row>
               <Col>
                 <p style={{ color: "white", paddingLeft: "80px", paddingRight: "80px", fontSize: "18px", textAlign: "justify", letterSpacing: "1px", lineHeight: "25px" }}>
-                  Swank PR, L.L.C. exists to solve the critical issues facing our clients, both large and small. Our unique approach is not only what differentiates us, but also what makes us successful. We provide a broad range of services and solutions to help organizations facilitate change, achieve their vision and optimize performance and productivity.
+                Swank PR L.L.C. was founded on the understanding that not every organization or business has an extensive budget for PR/marketing services. Within this thought, a lightbulb went off, “Who are your bread and butter clients, who keeps your company afloat?”
+                <br />
+                <br />
+                Services offered are meant to be inclusive and geared to provide PR guidance and strategic communications services that enable positive relations and influence positive behaviors. Public Relations is not meant to be complex, but acts as an aid in a complex world. 
             </p>
               </Col>
             </Row>
-            <Row style={{ marginTop: "40px", marginBottom: "100px" }}>
+            
+            {/* <Row style={{ marginTop: "40px", marginBottom: "100px" }}>
               <Col style={{ textAlign: "center", color: "white" }}>
                 <p>This.</p>
                 <img src={"https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60"} width="150px" alt="logo" />
@@ -65,7 +72,8 @@ class Landing extends Component {
                 <p>The Other.</p>
                 <img src={"https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60"} width="150px" alt="logo" />
               </Col>
-            </Row>
+            </Row> */}
+
           </div>
 
           <Footer />
