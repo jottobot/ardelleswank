@@ -9,16 +9,16 @@ function App() {
   return (
     <div className="demo-big-content">
       <Layout>
-        <Header style={{ backgroundColor: "black" }} title={<Link style={{ textDecoration: 'none', color: '#fc5193' }} to="/">Swank PR, L.L.C.</Link>} scroll>
-          <Navigation>
+        <Header style={{ backgroundColor: "black" }} title={<Link style={{ textDecoration: 'none', color: '#fc5193', fontFamily: "''Baskervville', serif", textTransform: "uppercase" }} to="/">Swank PR, L.L.C.</Link>} scroll>
+          <Navigation style={{ fontFamily: "'Montserrat', sans-serif" }}>
             <Link to="/about">About</Link>
             <Link to="/services">Services</Link>
             <Link to="/clients">Clients</Link>
             <Link to="/contact">Contact</Link>
           </Navigation>
         </Header>
-        <Drawer title={<Link style={{ textDecoration: 'none', color: 'black' }} to="/">Swank PR, L.L.C.</Link>}>
-          <Navigation>
+        <Drawer title={<Link style={{ textDecoration: 'none', color: 'black', fontFamily: "''Baskervville', serif", textTransform: "uppercase" }} to="/">Swank PR, L.L.C.</Link>}>
+          <Navigation style={{ fontFamily: "'Montserrat', sans-serif" }}>
             <Link to="/about">About</Link>
             <Link to="/services">Services</Link>
             <Link to="/clients">Clients</Link>

@@ -9,29 +9,30 @@ class Landing extends Component {
       <div>
         {/* <div> */}
           <Row>
-              <Col xs={12} lg={8}>
+              <Col xs={12} lg={7}>
                 <Hero backgroundImage="https://images.unsplash.com/photo-1568050989546-ad3e9a567206?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60" >
                 </Hero>
               </Col>
-              <Col xs={12} lg={4} style={{ backgroundColor: "black" }}>
+              <Col xs={12} lg={5} style={{ backgroundColor: "black" }}>
                 <div style={{ textAlign: "center" }}>
-                  <h1 style={{ color: "#fc5193", marginTop: "30px" }}>Swank PR, L.L.C.</h1>
-                  <h2 style={{ color: "white", marginTop: "50px" }}>Own it, someone has to.</h2>
+                  <h1 style={{ fontFamily: "''Baskervville', serif", color: "#fc5193", marginTop: "150px", textTransform: "uppercase" }}>Swank PR, L.L.C.</h1>
+                  <h3 style={{ color: "white", marginTop: "40px", fontFamily: "'Montserrat', sans-serif" }}>Own it,
+                  <br /> someone has to.</h3>
                 </div>
               </Col>         
           </Row>
         {/* </div> */}
 
           {/* WHAT SWANK IS */}
-          <div style={{ paddingTop: 80, paddingLeft: 30, paddingRight: 30, paddingBottom: 80, backgroundColor: "white" }}>
+          <div style={{ paddingTop: "80px", paddingLeft: "30px", paddingRight: "30px", paddingBottom: "80px", backgroundColor: "white" }}>
             <Row>
               <Col size="md-12">
-                <h1 style={{ textAlign: "center", color: "#fc5193", marginBottom: "40px" }}>Our Mission</h1>
+                <h1 style={{ textAlign: "center", color: "#fc5193", marginBottom: "40px", fontFamily: "''Baskervville', serif", textTransform: "uppercase" }}>Our Mission</h1>
               </Col>
             </Row>
             <Row>
               <Col size="md-12">
-                <p style={{ color: "black", paddingLeft: "50px", paddingRight: "50px", fontSize: "25px", textAlign: "justify", letterSpacing: "1px", lineHeight: "30px" }}>
+                <p style={{ color: "black", paddingLeft: "60px", paddingRight: "60px", fontSize: "25px", textAlign: "justify", letterSpacing: ".7px", lineHeight: "30px", fontFamily: "'Montserrat', sans-serif" }}>
                 Swank PR, L.L.C. is an efficient and results oriented PR firm specializing in real estate development and lifestyle public relations. Founded in 2019, Swank PR L.L.C. offers strategic solutions for an array of clients, and seeks to use digital platforms to enhance interpersonal relations rather than isolate them. 
                 <br />
                 <br />
@@ -42,15 +43,15 @@ class Landing extends Component {
           </div>
 
           {/* OVERVIEW OF SERVICES */}
-          <div style={{ paddingTop: 30, paddingBottom: 30, backgroundColor: "black" }}>
+          <div style={{ paddingTop: "80px", paddingLeft: "30px", paddingRight: "30px", paddingBottom: "80px", backgroundColor: "black" }}>
             <Row>
               <Col>
-                <h1 style={{ textAlign: "center", color: "#fc5193" }}>Why Swank?</h1>
+              <h1 style={{ textAlign: "center", color: "#fc5193", marginBottom: "40px", fontFamily: "''Baskervville', serif", textTransform: "uppercase" }}>Why Swank?</h1>
               </Col>
             </Row>
             <Row>
               <Col>
-                <p style={{ color: "white", paddingLeft: "80px", paddingRight: "80px", fontSize: "18px", textAlign: "justify", letterSpacing: "1px", lineHeight: "25px" }}>
+                <p style={{ color: "white", paddingLeft: "80px", paddingRight: "80px", fontSize: "18px", textAlign: "justify", letterSpacing: ".7px", lineHeight: "28px", fontFamily: "'Montserrat', sans-serif" }}>
                 Swank PR L.L.C. was founded on the understanding that not every organization or business has an extensive budget for PR/marketing services. Within this thought, a lightbulb went off, “Who are your bread and butter clients, who keeps your company afloat?”
                 <br />
                 <br />

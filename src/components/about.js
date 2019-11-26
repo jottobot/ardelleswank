@@ -15,28 +15,28 @@ class About extends Component {
         <div style={{ paddingTop: 80, paddingLeft: 30, paddingRight: 30, paddingBottom: 80, backgroundColor: "black" }}>
           <Row>
             <Col size="md-12">
-              <h1 style={{ textAlign: "center", color: "#fc5193" }}>Our Sectors</h1>
+              <h1 style={{ textAlign: "center", color: "#fc5193", marginBottom: "40px", fontFamily: "''Baskervville', serif", textTransform: "uppercase" }}>Our Sectors</h1>
             </Col>
           </Row>
           <Row>
             <Col size="md-12">
-              <p style={{ color: "white", paddingLeft: "80px", paddingRight: "80px", fontSize: "18px", textAlign: "justify", letterSpacing: "1px", lineHeight: "25px" }}>
+              <p style={{ color: "white", paddingLeft: "80px", paddingRight: "80px", fontSize: "25px", textAlign: "justify", letterSpacing: "1px", lineHeight: "28px", fontFamily: "'Monteserrat', serif" }}>
                 Swank PR, L.L.C. is an efficient and results oriented PR firm specializing in real estate and lifestyle public relations. Founded in 2019, Swank PR L.L.C. offers strategic solutions for an array of clients, and seeks to use digital platforms to enhance interpersonal relations rather than isolate them.
              </p>
             </Col>
           </Row>
-          <Row style={{ marginTop:"50px", color:"white", textAlign:"center"}}>
+          <Row style={{ marginTop: "50px", color:"white", textAlign:"center", fontFamily: "'Monteserrat', Serif" }}>
             <Col>
             <img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=60" height="200px" alt=""></img>
-            <p>Commercial, residential and industrial real estate</p> 
+            <p style={{ fontSize: "18px", marginTop: "20px" }}>Commercial, residential and industrial real estate</p> 
             </Col>
             <Col>
             <img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=60" height="200px" alt=""></img>
-            <p>Corporate and financial services</p>
+            <p style={{ fontSize: "18px", marginTop: "20px" }}>Corporate and financial services</p>
             </Col>
             <Col>
             <img src="https://images.unsplash.com/photo-1502519144081-acca18599776?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=60" height="200px" alt=""></img>
-            <p>Consumer and lifestyle services</p>
+            <p style={{ fontSize: "18px", marginTop: "20px" }}>Consumer and lifestyle services</p>
             </Col>
           </Row>
         </div>
