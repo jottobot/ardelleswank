@@ -13,9 +13,17 @@ class Services extends Component {
   render() {
     return (
       <div>
-        <Hero backgroundImage="https://images.unsplash.com/photo-1564547563308-5ad53935116d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60">
-          <h1 style={{ color: "#fc5193", textTransform: "uppercase" }}>Services</h1>
-        </Hero>
+        {/* <Hero backgroundImage="https://images.unsplash.com/photo-1564547563308-5ad53935116d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60"> */}
+          {/* <p style={{ color: "#fc5193", textTransform: "uppercase", fontFamily: "'Montserrat', sans-serif", fontSize: "80px", paddingTop: "100px", fontWeight: "bolder" }}>Services</p> */}
+
+          <div className="image-container">
+            <div className="text">Services</div>
+          </div>
+
+
+
+
+        {/* </Hero> */}
 
         <div style={{ paddingTop: 80, paddingLeft: 30, paddingRight: 30, paddingBottom: 80, backgroundColor: "black" }}>
           <Row>
@@ -23,31 +31,31 @@ class Services extends Component {
               <h1 style={{ textAlign: "center", color: "#fc5193" }}>ANOTHER CATCHY PHRASE</h1>
             </Col>
           </Row>
-          <Row style={{ textAlign:"center"}}>
+          <Row style={{ textAlign: "center" }}>
             <Col>
-              <FaPhone style={{ color: "white", fontSize:"80px", marginBottom: "20px", marginTop: "40px" }} />
+              <FaPhone style={{ color: "white", fontSize: "80px", marginBottom: "20px", marginTop: "40px" }} />
               <p style={{ color: "white" }}>Communications Strategy & Planning</p>
             </Col>
             <Col>
-              <FaHandsHelping style={{ color: "white", fontSize:"80px", marginBottom: "20px", marginTop: "40px" }} />
+              <FaHandsHelping style={{ color: "white", fontSize: "80px", marginBottom: "20px", marginTop: "40px" }} />
               <p style={{ color: "white" }}>Community Relations</p>
             </Col>
             <Col>
-              <FaInstagram style={{ color: "white", fontSize:"80px", marginBottom: "20px", marginTop: "40px" }} />
+              <FaInstagram style={{ color: "white", fontSize: "80px", marginBottom: "20px", marginTop: "40px" }} />
               <p style={{ color: "white" }}>Media Relations</p>
             </Col>
           </Row>
-          <Row style={{ textAlign:"center"}}>
+          <Row style={{ textAlign: "center" }}>
             <Col>
-              <FaPencilAlt style={{ color: "white", fontSize:"80px", marginBottom: "20px", marginTop: "40px" }} />
+              <FaPencilAlt style={{ color: "white", fontSize: "80px", marginBottom: "20px", marginTop: "40px" }} />
               <p style={{ color: "white" }}>Copywriting & Content Development</p>
             </Col>
             <Col>
-              <FaSistrix style={{ color: "white", fontSize:"80px", marginBottom: "20px", marginTop: "40px" }} />
+              <FaSistrix style={{ color: "white", fontSize: "80px", marginBottom: "20px", marginTop: "40px" }} />
               <p style={{ color: "white" }}>Crisis Communications</p>
             </Col>
             <Col>
-              <FaGrinBeam style={{ color: "white", fontSize:"80px", marginBottom: "20px", marginTop: "40px" }} />
+              <FaGrinBeam style={{ color: "white", fontSize: "80px", marginBottom: "20px", marginTop: "40px" }} />
               <p style={{ color: "white" }}>Brand & Reputation Management</p>
             </Col>
 
